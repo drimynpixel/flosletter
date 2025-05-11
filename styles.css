@@ -1,0 +1,217 @@
+body{
+    font-family: 'Instrument Serif', serif;
+}
+
+.dark{
+    background-color: rgb(0, 0, 0);
+}
+
+.tea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(4, 42, 18, 0.767);
+}
+
+
+.physics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(12, 5, 69, 0.767);
+}
+
+
+.choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(229, 39, 80, 0.767);
+}
+
+.continued{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(241, 241, 241, 0.767);
+}
+
+.content{
+    min-height: 800px;
+    border : 2px rgba(4, 42, 18, 0.767) dotted;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Instrument Serif', serif;
+    padding-left: -100px;
+    color: rgba(4, 42, 18, 0.767);
+    border-bottom: none;
+}
+
+.content-2{
+    min-height: 800px;
+    border: 2px dotted rgba(12, 5, 69, 0.767);
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Instrument Serif', serif;
+    padding-left: -100px;
+    color: rgba(12, 5, 69, 0.767);
+    border-bottom: none;
+}
+
+.content-3{
+    min-height: 300px;
+    border: 2px dotted black;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Instrument Serif', serif;
+    padding-left: -100px;
+    color: rgba(35, 96, 54, 0.767);
+    border-bottom: none;
+}
+
+.content-4{
+    min-height: 500px;
+    border: 2px solid rgb(166, 164, 164);
+    background-color: rgb(29, 28, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Instrument Serif', serif;
+    padding-left: -100px;
+    color: rgba(251, 251, 251, 0.767);
+    border-bottom: none;
+}
+
+
+
+.image-1{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end ;
+      border : 2px rgba(4, 42, 18, 0.767) dotted;
+      border-top: none;
+    background-color: rgb(242, 242, 242);
+}
+
+.image-2{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end ;
+      border: 2px rgba(12, 5, 69, 0.767) dotted;
+      border-top: none;
+    background-color: rgb(242, 242, 242);
+}
+
+
+.image-3{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end ;
+      border: 2px dotted black;
+      border-top: none;
+    background-color: rgb(242, 242, 242);
+}
+
+.image-4{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end ;
+      border: 2px dotted rgb(250, 249, 249);
+      border-top: none;
+    background-color: rgb(29, 28, 28);
+}
+
+
+.before{
+    font-family: 'Instrument Serif', serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    min-height: 35px;
+    min-width: 100px;
+}
+
+.next-1 {
+    font-family: 'Instrument Serif', serif;
+    background-color: rgba(4, 42, 18, 0.767);
+    color: white;
+    min-height: 21px;
+    min-width: 100px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 0px;
+    border: none;
+}
+
+.next-2 {
+    font-family: 'Instrument Serif', serif;
+    background-color: rgba(12, 5, 69, 0.767);
+    color: white;
+    min-height: 21px;
+    min-width: 100px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 0px;
+    border: none;
+}
+
+.next-3 {
+    font-family: 'Instrument Serif', serif;
+    background-color: rgb(116, 153, 239);
+    color: white;
+    min-height: 21px;
+    min-width: 100px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 0px;
+    border: none;
+}
+
+
+.prev-2 {
+    font-family: 'Instrument Serif', serif;
+    background-color: rgba(12, 5, 69, 0.767);
+    color: white;
+    min-height: 21px;
+    min-width: 100px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 0px;
+    border: none;
+}
+
+.prev-3 {
+    font-family: 'Instrument Serif', serif;
+    background-color: rgb(116, 153, 239);
+    color: white;
+    min-height: 21px;
+    min-width: 100px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 0px;
+    border: none;
+}
+
+.prev-4 {
+    font-family: 'Instrument Serif', serif;
+    background-color: rgb(255, 251, 251);
+    color: rgb(16, 16, 16);
+    min-height: 21px;
+    min-width: 100px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 0px;
+    border: none;
+}
